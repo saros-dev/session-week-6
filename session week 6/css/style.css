@@ -7,6 +7,12 @@
 body {
     width: 1400px;
     height: 100vh;
+    font-family: "manrope";
+}
+
+@font-face {
+    font-family: "manrope";
+    src: url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 }
 
 .nav-mobile {
@@ -71,6 +77,91 @@ body {
     cursor: pointer;
 }
 
+.plan-container {
+    margin-left: 160px;
+    margin-top: 150px;
+    
+    
+}
+
+.plan-title h6 {
+    color: rgba(153, 153, 153, 1);
+    margin-top: 10px;
+    
+}
+
+.plan-title {
+    display: inline-block;
+    height: 60px;
+    
+}
+
+.plan-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 80px;
+}
+
+.plan-card{
+    background-color:rgba(38, 38, 38, 1) ;
+    padding: 50px;
+    width: 500px;
+    height: 400px;
+    border-radius: 12px;
+    
+}
+
+.plan-card h4 {
+    color: #fff;
+    font-weight: 700;
+    
+}
+
+.plan-card h6 {
+    color: rgba(153, 153, 153, 1);
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+.plan-card h2 {
+    margin-top: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.plan-card h2 span {
+    color: rgba(153, 153, 153, 1);
+}
+
+.plan-card button {
+    margin-top: 50px;
+    gap: 20px;
+    justify-content: space-between;
+    border-radius: 8px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: black;
+}
+
+.red-btn {
+    background-color: rgba(229, 0, 0, 1);
+}
+
+
+
+.plan-title h2 {
+    color: #fff;
+    
+}
+
 
 
 @media (max-width:395px) {
@@ -108,5 +199,14 @@ body {
     display: none;
   }
 
+  .plan-cards {
+    display: grid;
+    grid-template-columns: (2fr, 1);
+  }
+
     
 }
+
+
+
+
