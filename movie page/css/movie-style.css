@@ -76,6 +76,46 @@ body {
     cursor: pointer;
 }
 
+.popular-cards-title {
+    margin-left: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+
+.popular-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.swiper {
+    margin-left: 30px;
+}
+
+.swiper-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.swiper-container {
+    height: 500px;
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+    }
+}
+
+.swiper-pagintation {
+    margin-bottom: 300px;
+}
+
+
 
 @media (max-width:395px) {
 

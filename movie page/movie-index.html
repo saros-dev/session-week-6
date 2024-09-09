@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/movie-style.css">
+    <!-- <link rel="stylesheet" href="./slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./slider/css/owl.theme.default.min.css"> -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 </head>
 <body>
   <!-- saros   -->
@@ -42,11 +48,43 @@
 </header>
 
 
+<div class="popular-cards-title">
+    <h1>Popular Top 10 In Genres</h1>
+</div>
 
 
 
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="./assets/Container (3).svg" alt=""> 
+            <img src="./assets/Container (4).svg" alt="">
+            <img src="./assets/Container (5).svg" alt="">
+        <img src="./assets/Container (6).svg" alt=""></div>
+          <div class="swiper-slide"> <img src="./assets/Container (3).svg" alt=""> 
+            <img src="./assets/Container (4).svg" alt="">
+            <img src="./assets/Container (5).svg" alt="">
+        <img src="./assets/Container (6).svg" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/Container (3).svg" alt=""> 
+            <img src="./assets/Container (4).svg" alt="">
+            <img src="./assets/Container (5).svg" alt="">
+        <img src="./assets/Container (6).svg" alt=""></div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        
+      </div>
 
+   
 
+</div>
 
 
 
@@ -106,6 +144,15 @@
 
 
 
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://kit.fontawesome.com/d26cf3728f.js" crossorigin="anonymous"></script>
 <script src="./movie-app.js"></script>
 </body>
