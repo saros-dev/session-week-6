@@ -53,7 +53,7 @@ body{
         background-color: #1E1E1E;
         flex-direction: column;
         align-items: center;
-        background-image: url(../assets/Sub\ Container.svg);
+        background-image: url(../assets/Sub\ Container.jpg);
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
@@ -108,6 +108,7 @@ body{
 }
 .device-section-box{
     width: 413px;
+    min-width: 360px;
     padding:40px ;
  
 background: rgb(0,0,0);
@@ -128,3 +129,65 @@ background: linear-gradient(40deg, rgba(0,0,0,1) 68%, rgb(42, 7, 7) 100%, rgba(4
     gap: 10px;
     margin-bottom: 25px;
 }
+.footer{
+    margin: 0 auto;
+    width: 90%;
+    padding-top:100px ;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    
+
+}
+.footer-img{
+   border-radius: 8px;
+   padding: 10px 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+.footer div h4{
+    font-size: 20px;
+}
+.footer div a{
+    font-size: 18;
+    color: gray;
+    text-decoration: none;
+}
+.footer div{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-connect{
+    flex-direction: row !important;
+}
+.footer-container{
+    background-color: black;
+    width: 100%;
+}
+.footer-container hr{
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    width: 90%;
+    color: gray;
+}
+.footer-bottom{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.footer-bottom div{
+    display: flex;
+    gap: 5px;
+    
+}
+.color-gray{
+    color: gray;
+    border-color: gray;
+}
+
